@@ -4,13 +4,43 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tauri App</title>
+    <title>DJ Kat</title>
     <script type="module" src="/main.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
   </head>
 
   <body>
     <main class="container">
-      <h1>Hello World</h1>`
+      <!-- <h1>Hello World</h1> -->
+
+      <div id="cat-gifs">
+        <img src="./assets/ezgif-6d6d12986b01982b.gif" alt="Cat Gif" id="current-gif">
+      </div>
+
+      <div id="audio-details">
+
+        <div class="album-details">
+
+          <div id="album-img">
+            <img src="./assets/album-art2.jpeg" alt="album img">
+          </div>
+
+          <!-- <div id="album-name"><span><i class="ri-disc-fill"></i></span> Spiderman: Into the Spiderverse</div> -->
+        </div>
+
+        <div class="song-details">
+          <!-- <div id="song-name"><span><i class="ri-mv-fill"></i></span> Sunflower</div>
+          <div id="artist-name"><span><i class="ri-user-voice-fill"></i></span> Post Malone, Swae Lee</div>
+          <div id="app-source"><span><i class="ri-spotify-fill"></i></span> Spotify</div> -->
+
+          <p class="song-name"><i class="ri-mv-fill"></i> <span id="song-name">Sunflower</span></p>
+          <p class="artist-name"><i class="ri-user-voice-fill"></i> <span id="artist-name">Post Malone, Swae Lee</span></p>
+          <p class="album-name"><i class="ri-disc-fill"></i> <span id="album-name"> Spiderman: Into the Spiderverse</span></p>
+          <p class="source-name"><span id="source-icon"><i class="ri-spotify-fill"></i></span> <span id="source-name">Spotify</span></p>
+
+        </div>
+
+      </div>
       
     </main>
   </body>

@@ -3,6 +3,7 @@
 desktop app with a cat reacting to the music playing on your computer
 https://makeagif.com/youtube-to-gif
 https://ezgif.com/remove-background/ezgif-600897b3edc81a6f.gif.html
+
 -----------------------
 
 ## 1. Project Goal
