@@ -5,7 +5,8 @@
   font-family: var(--ruluko);
   /* font-size: 14px; */
 
-  background-color: #f6f6f6;
+  /* background-color: #f6f6f6; */
+  background: transparent;
   /* background-color: #2f2f2f; */
 
   font-synthesis: none;
@@ -17,7 +18,7 @@
   --text-dark: #222;
   --text-grey: #d6d6d6;
   --text-light: #f0f0f0;
-  --translucent: #00000059;
+  --translucent: #0000007a;
 
   --dm-serif: "DM Sans", sans-serif;
   --ruluko: "Ruluko", sans-serif;
@@ -35,14 +36,16 @@
   margin: 0;
   /* height: 25rem; */
   padding: 0;
-  /* background-color: cornflowerblue; */
+  background-color: rgba(0, 0, 0, 0.1);
   /* padding-top: 10vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* text-align: center; */
   gap: 0.5rem;
-  background: url('./assets/test-bg3.jpeg');
+  /* background: url('./assets/test-bg3.jpeg'); */
+  user-select: none;
+  z-index: 100;
 }
 
 
@@ -63,7 +66,7 @@
   gap: 1rem;
   /* background-color: blueviolet; */
   background-color: var(--translucent);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(10px);
   color: var(--text-light);
   border-radius: 0.5rem;
   padding: 0.5rem;
