@@ -1,9 +1,9 @@
 # DJ Kat
 
 desktop app with a cat reacting to the music playing on your computer
-
+https://makeagif.com/youtube-to-gif
+https://ezgif.com/remove-background/ezgif-600897b3edc81a6f.gif.html
 -----------------------
-# EchoPet — Project Outline
 
 ## 1. Project Goal
 A lightweight Windows desktop pet built with **Tauri**, **Rust**, and **Vanilla HTML/CSS/JS** that:
@@ -64,39 +64,9 @@ Frontend (HTML/CSS/JS)
 
 ---
 
-# 4. Project Structure
-
-```text
-EchoPet/
-│
-├── src/
-│   ├── index.html
-│   ├── style.css
-│   ├── app.js
-│   ├── assets/
-│   │   ├── gifs/
-│   │   ├── images/
-│   │   └── icons/
-│   ├── components/
-│   └── utils/
-│
-└── src-tauri/
-    ├── src/
-    │   ├── main.rs
-    │   ├── audio.rs
-    │   ├── media.rs
-    │   ├── fft.rs
-    │   ├── events.rs
-    │   ├── window.rs
-    │   └── config.rs
-    └── tauri.conf.json
-```
-
----
-
 # 5. Development Workflow
 
-## Phase 1 — Project Setup
+## Phase 1 — Project Setup  ---> |||
 - Install Rust
 - Install Tauri
 - Create project
