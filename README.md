@@ -3,6 +3,15 @@
 desktop app with a cat reacting to the music playing on your computer
 https://makeagif.com/youtube-to-gif
 https://ezgif.com/remove-background/ezgif-600897b3edc81a6f.gif.html
+https://www.youtube.com/@MalekTarek-y4g/shorts
+https://youtube.com/playlist?list=PL58XqTJTgnB6Vw0UQhKDNW-wpZRy3eLx7&si=HsdSIKcX60u22r8W
+https://youtube.com/playlist?list=PLLemPkA0kajHls_rJogip0892aA4D5gYV&si=O-uIoI3P718os8kE
+https://youtube.com/playlist?list=PLfO7PvU9iHnxdfs1LiAYg9dG9MlBKEDE5&si=Sv8eUO7jgOjuq1yE
+
+--------------------------------
+THOUGHTS:
+- add something in right click menu? for ex: quit app/toggle always-on-top/etc.
+
 
 -----------------------
 
@@ -76,7 +85,7 @@ Frontend (HTML/CSS/JS)
 
 ---
 
-## Phase 2 — UI
+## Phase 2 — UI  ----> |||
 - Pet container
 - Song info panel
 - Album art
